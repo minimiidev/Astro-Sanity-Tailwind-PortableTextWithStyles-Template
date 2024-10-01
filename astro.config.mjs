@@ -6,8 +6,8 @@ import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
 
-  output: "server",
-  adapter: vercel(),
+  // output: "server",
+  // adapter: vercel(),
 
   integrations: [sanity({
     projectId: '14be0l9l',
