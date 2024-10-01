@@ -1,7 +1,7 @@
-import { sanityClient } from "sanity:client";
 import type { PortableTextBlock } from "@portabletext/types";
 import type { ImageAsset, Slug } from "@sanity/types";
 import groq from "groq";
+import { sanityClient } from "sanity:client";
 
 export async function getPosts(): Promise<Post[]> {
   return await sanityClient.fetch(
