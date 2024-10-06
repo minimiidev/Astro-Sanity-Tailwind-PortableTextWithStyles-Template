@@ -8,3 +8,8 @@
 ## Sanity Studio
 
 "localhost:4321/admin"
+
+### Portable Text
+
+Block = Titles
+ListItem = List Item

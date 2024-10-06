@@ -10,7 +10,7 @@ export default defineConfig({
   // adapter: vercel(),
 
   integrations: [sanity({
-    projectId: '14be0l9l',
+    projectId: 'cbcrx2ga',
     dataset: 'production',
     // Set useCdn to false if you're building statically.
     useCdn: false,

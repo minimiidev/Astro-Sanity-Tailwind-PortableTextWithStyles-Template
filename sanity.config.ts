@@ -7,7 +7,7 @@ export default defineConfig({
   name: "default",
   title: "Astro+Sanity-Template",
 
-  projectId: "14be0l9l",
+  projectId: "cbcrx2ga",
   dataset: "production",
 
   plugins: [structureTool(), visionTool()],
