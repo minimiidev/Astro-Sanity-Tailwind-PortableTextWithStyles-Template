@@ -11,5 +11,5 @@
 
 ### Portable Text
 
-######Block = Titles
-######ListItem = List Item
+1. Block = Titles
+2. ListItem = List Item
