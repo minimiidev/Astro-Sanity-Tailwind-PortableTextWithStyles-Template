@@ -11,5 +11,5 @@
 
 ### Portable Text
 
-Block = Titles
-ListItem = List Item
+######Block = Titles
+######ListItem = List Item
