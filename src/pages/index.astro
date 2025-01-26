@@ -8,7 +8,7 @@ const posts = await getPosts();
 
 <Layout title="Astro + Sanity">
   <section class="h-screen flex items-center justify-center flex-col gap-4">
-    <h1 class="h99">Astro + Sanity Template</h1>
+    <h1 class="h2">Astro + Sanity Template</h1>
     {
       posts.length ? (
         posts.map((post) => <Card post={post} />)
