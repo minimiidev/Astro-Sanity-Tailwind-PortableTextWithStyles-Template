@@ -2,12 +2,13 @@ import { defineConfig } from 'astro/config'
 import sanity from '@sanity/astro'
 import react from '@astrojs/react'
 import vercel from '@astrojs/vercel/serverless';
-import tailwind from '@astrojs/tailwind';
+
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
 
-  // output: "server",
-  // adapter: vercel(),
+  output: "server",
+  adapter: vercel(),
 
   integrations: [sanity({
     projectId: 'cbcrx2ga',
@@ -19,5 +20,8 @@ export default defineConfig({
     stega: {
       studioUrl: "/admin",
     },
-  }), react(), tailwind()],
+  }), react()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 })

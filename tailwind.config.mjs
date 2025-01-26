@@ -12,7 +12,14 @@ export default {
 			lg: "960px",
 			xl: "1200px",
 		},
-		extend: {},
-	},
-	plugins: [],
+		extend: {
+			fontFamily: {
+				"bebas": ["Bebas Neue", "sans-serif"],
+				"shanti": ["Shanti", "serif"],
+				"puritan": ["Puritan", "serif"],
+				"monserrat": ["Montserrat", "sans-serif"],
+			},
+		},
+		plugins: [],
+	}
 }
