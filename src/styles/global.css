@@ -1,4 +1,7 @@
 @import "tailwindcss";
+* {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -8,9 +11,10 @@ body {
   color: black;
 }
 
-* {
-  scroll-behavior: smooth;
-}
+
+@utility container {
+  margin-inline: auto;
+  }
 
 .h1 {
   @apply font-bold tracking-wide text-[64px] md:text-[96px] lg:text-[128px] leading-[0.85];

@@ -15,7 +15,7 @@ export default defineConfig({
     dataset: 'production',
     // Set useCdn to false if you're building statically.
     useCdn: false,
-    // apiVersion: "2024-09-21", // insert the current date to access the latest version of the API
+    apiVersion: "2025-04-10", // insert the current date to access the latest version of the API
     studioBasePath: '/admin',
     stega: {
       studioUrl: "/admin",
